@@ -358,5 +358,11 @@ To create the distribution (wheel, assets) for a release:
 
 All assets to be shipped will be output to the ``dist`` directory.
 
+NOTE FROM DEV:
+
+In order to get grafana connected. You need to specify `postgres:5432` as normal
+host inputs will not be detected due to the prviatehost systems of containers
+and seperate computers.
+
 
 © 2016-2021 Qualcomm Technologies, Inc.  All rights reserved.
